@@ -1,6 +1,6 @@
-# PostCSS Extract Variable Scheme [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
+# PostCSS Extract Variable Scheme <img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">
 
-[PostCSS Extract Variable Scheme] lets you export custom properties, selectors and media queries to one or multiple files based on a prefix you define in your variable name.
+[PostCSS Extract Variable Scheme](https://github.com/archnode/postcss-extract-variable-scheme) lets you export custom properties, selectors and media queries to one or multiple files based on a prefix you define in your variable name.
 
 ## Installation
 
@@ -34,11 +34,11 @@ Processing following CSS:
 
 ```css
 :root {
-	--my-prefix-h1-size: 2rem;
-	--my-prefix-box: {
-		background-color: #000;
+  --my-prefix-h1-size: 2rem;
+  --my-prefix-box: {
+    background-color: #000;
     font-weight: bold;
-	}
+  }
 }
 ```
 
@@ -73,4 +73,4 @@ Array of objects that specify individual exporters. Prefixes can be used multipl
 ]
 ```
 
-## [License](LICENSE)
+## [License](LICENSE.md)
