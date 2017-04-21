@@ -1,0 +1,27 @@
+{
+  "name": "postcss-extract-variable-scheme",
+  "version": "1.0.0",
+  "description": "Export custom variables to multiple json files based on naming prefixes.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archnode/postcss-extract-variable-scheme.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin"
+  ],
+  "author": "Markus Aichinger <markus@signalonline.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archnode/postcss-extract-variable-scheme/issues"
+  },
+  "homepage": "https://github.com/archnode/postcss-extract-variable-scheme#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-cli": "^6.24.1"
+  }
+}
